@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mind health</title>
     <link rel="stylesheet"href="style.css">
+    <script src="java.js" defer></script>
     <!--Cal Sans-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,224 +22,208 @@
                 <img src="img/m&h.png" alt="Mind Health Logo">
             </a>
             <ul>
-                <li><a href="#"> Servicios</a></li>
-                <li><a href="#"> Como funciona</a></li>
-                <li><a href="#"> Planes</a></li>
-                <li><a href="#"> Únete</a></li>
-                <li><a href="#"> Psicotrainer</a></li>
-                <a href="#" class="btnHeader">Iniciar sesión</a>
-                <a href="#" class="btnHeader2">Registrarse</a>
+                <li><a href="#servicios"> Servicios</a></li>
+                <li><a href="#funciona"> Como funciona</a></li>
+                <li><a href="#planes"> Planes</a></li>
+                <li><a href="#unete"> Únete</a></li>
+                <li><a href="#psicotrainer"> Psicotrainer</a></li>
+                <li><a href="login.html" target="btnHeader">Iniciar sesión</a></li>
+                <li><a href="registro.html" target="btnHeader2">Registrarse</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+        <main>
         <!-- Section N°1- Inicio-->
-        <section class = "banner">
-            <div class = "containerB now">
-                <div class = "boxB col-md-5 col-12">
+        <section class="banner">
+            <div class="containerB now">
+                <div class="boxB col-md-5 col-12">
                     <img src="img/Group 8.png" class="robot" alt="">
                 </div>
 
-                <div class = "boxB col2" >
-                    <h1>mind <br> health</h1> <!--titulo-->
-                    <p id = "txtBanner">
+                <div class="boxB col2" >
+                    <h1>mind <br> health</h1>
+                    <p id="txtBanner">
                         recibe psicoterapia en línea, <br>
-                        desde tu hogar <!--parrafo-->
+                        desde tu hogar
                         <div>
-                            <a href="#" class="btnBanner">Empezar</a>
+                            <li><a href="registro.html" class = "btnBanner" target="btnBanner">empezar</a></li>
                         </div>
                     </p>
                 </div>
             </div>
         </section>
+
         <!--Section N°2- Servicios-->
-        <section class = "Servicios">
-            <div class = "subservicios">
+        <section class="Servicios" id="servicios">
+            <div class="subservicios">
                 <h2>servicios</h2>
                 <p>
                     mind health, brinda diferentes servicios <br> psicológicos a un solo click
                 </p>
             </div>
-            <div class = "containerS">
-                <div class ="boxS">
+            <div class="containerS">
+                <div class="boxS">
                     <img src="img/chat.png" alt="">
                     <h3>chat 24/7</h3>
-                    <p>
-                        atención de la ia disponible <br>
-                        las 24h del día
-                    </p>
+                    <p>atención de la ia disponible <br> las 24h del día</p>
                 </div>
-                <div class = "boxS">
+                <div class="boxS">
                     <img src="img/analisisrpta.png" alt="">
                     <h3>análisis de respuesta</h3>
-                    <p>
-                        brinda análisis e informes <br>
-                        al usuario en base a las <br>
-                        respuestas obtenidas
-                    </p>
+                    <p>brinda análisis e informes <br> al usuario en base a las <br> respuestas obtenidas</p>
                 </div>
-                    <div class = "boxS">
+                <div class="boxS">
                     <img src="img/seguimiento.png" alt="">
                     <h3>seguimiento personalizado</h3>
-                    <p>
-                        en base a informes clínicos previos
-                    </p>
+                    <p>en base a informes clínicos previos</p>
                 </div>
-                    <div class = "boxS">
+                <div class="boxS">
                     <img src="img/consejos.png" alt="">
-		    <h3>consejos customizados</h3>
-                    <p>
-                        recomendaciones y consejos basadas <br>
-                        en las respuestas del usuario
-                    </p>
+                    <h3>consejos customizados</h3>
+                    <p>recomendaciones y consejos basadas <br> en las respuestas del usuario</p>
                 </div>
             </div>
         </section>
-    
-    <!--Section N°3- Como funciona-->
-        <section class = "Como funciona">
-            <div class = "subfuncionamiento">
+
+        <!--Section N°3- Como funciona-->
+        <section class="Como funciona" id="funciona">
+            <div class="subfuncionamiento">
                 <h2>como funciona</h2>
-                <p>
-                    Recibe ayuda psicológica rápida en 3 pasos
-                </p>
+                <p>Recibe ayuda psicológica rápida en 3 pasos</p>
             </div>
-            <div class = "containerP">
-                <div class ="boxP">
+            <div class="containerP">
+                <div class="boxP">
                     <img src="img/iniciarsesion.png" alt="">
                     <h3>1</h3>
-                    <p>
-                        Dirígete al apartado “únete” y presiona <br>
-                        el botón “empezar a chatear con mind”.
-                    </p>
+                    <p>Dirígete al apartado “únete” y presiona <br> el botón “empezar a chatear con mind”.</p>
                 </div>
-                <div class = "boxP">
+                <div class="boxP">
                     <img src="img/iniciarsesion.png" alt="">
                     <h3>2</h3>
-                    <p>
-                        Se abrirá una ventana para registrarse <br>
-                        gratis o suscribirse pero esto puede <br>
-                        ser omitido por el usuario.
-                    </p>
+                    <p>Se abrirá una ventana para registrarse <br> gratis o suscribirse pero esto puede <br> ser omitido por el usuario.</p>
                 </div>
-                    <div class = "boxP">
+                <div class="boxP">
                     <img src="img/seguimiento.png" alt="">
                     <h3>3</h3>
-                    <p>
-                        Finalmente, luego de registrarse <br>
-                        o ingresar como "anónimo" se iniciara el chat.
-                    </p>
+                    <p>Finalmente, luego de registrarse <br> o ingresar como "anónimo" se iniciará el chat.</p>
                 </div>
             </div>
         </section>
-        <!--seccion 4: suscripcion-->
-        <section class = "Planes de suscripcion">
-            <div class = "subplanes">
+
+        <!--Seccion 4: Planes de suscripcion-->
+        <section class="Planes de suscripcion" id="planes">
+            <div class="subplanes">
                 <h2>nuestros planes de suscripciones</h2>
             </div>
-            <div class = "containerPl">
-                <div class ="boxPl">
-                    <div class = "boxTitle">
+            <div class="containerPl">
+                <div class="boxPl">
+                    <div class="boxTitle">
                        <h3>STANDARD</h3>
                        <p class="precio"> S/.0 </p>
-                       <div>
-                         <a href="#" class="btnPlanes">elegir plan</a>
-                       </div>
+                       <div><a href="planstandart.html" class="btnPlanes" target="btnPlanes">elegir plan</a></div>
                     </div>
                     <div class="boxContent">
                         <p>-chat desbloqueado <br> -límite de chats <br> -gratis</p>
                     </div>
                 </div>
-                <div class = "boxPl">
-                    <div class = "boxTitle">
+                <div class="boxPl">
+                    <div class="boxTitle">
                        <h3>VIP</h3>
                        <p class="precio"> S/.05 </p>
-                       <div>
-                         <a href="#" class="btnPlanes">elegir plan</a>
-                       </div>
+                       <div><a href="planvip.html" class="btnPlanes" target="btnPlanes">elegir plan</a></div>
                     </div>
                     <div class="boxContent">
-                        <p>-chat ilimitado <br> -subir reporte clínico <br> -seguimiento <br> personalizado</p>
+                        <p>-chat ilimitado <br> -subir reporte clínico <br> -seguimiento personalizado</p>
                     </div>
                 </div>
-                <div class = "boxPl">
-                    <div class = "boxTitle">
+                <div class="boxPl">
+                    <div class="boxTitle">
                        <h3>PREMIUM</h3>
                        <p class="precio"> S/.13 </p>
-                       <div>
-                         <a href="#" class="btnPlanes">elegir plan</a>
-                       </div>
+                       <div><a href="planpremium.html" class="btnPlanes" target="btnPlanes">elegir plan</a></div>
                     </div>
                     <div class="boxContent">
-                        <p>-chat ilimitado <br> -seguimiento <br> personalizado <br> -análisis de las <br> respuestas <br> </p>
+                        <p>-chat ilimitado <br> -seguimiento personalizado <br> -análisis de las respuestas</p>
                     </div>
                 </div>
-                <div class = "boxPl">
-                    <div class = "boxTitle">
-                       <h3>STANDARD</h3>
+                <div class="boxPl">
+                    <div class="boxTitle">
+                       <h3>PLATINIUM</h3>
                        <p class="precio"> S/.27 </p>
-                       <div>
-                         <a href="#" class="btnPlanes">elegir plan</a>
-                       </div>
+                       <div><a href="planplatinium.html" class="btnPlanes" target="btnPlanes">elegir plan</a></div>
                     </div>
                     <div class="boxContent">
-                        <p>-chat ilimitado <br> -seguimiento personalizado <br> -informe de análisis clínicos <br> -recomendaciones y consejos personalizados </p>
+                        <p>-chat ilimitado <br> -seguimiento personalizado <br> -informe de análisis clínicos <br> -recomendaciones y consejos personalizados</p>
                     </div>
                 </div>
-                </div>
             </div>
         </section>
-    <!--seccion 5: unirse-->
-    <section class="promo-section">
-        <section class="banner">
-            <div class="containerU now">
-                <div class="boxB col-md-5 col-12">
-                    <img src="img/únete.png" class="phone" alt="">
+
+        <!--Seccion 5: Unirse-->
+        <section class="promo-section" id="unete">
+            <section class="banner">
+                <div class="containerU now">
+                    <div class="boxB col-md-5 col-12">
+                        <img src="img/únete.png" class="phone" alt="">
+                    </div>
+                    <div class="boxB col2">
+                        <h1>chatea con una <br> ia profesional </h1>
+                        <p class="txtBannerU">
+                            capacitada por psicólogos expertos en técnicas <br>
+                            como TCC y mindfulness
+                            <div>
+                                <li><a href="registro.html" class="btnBannerU" target="btnBannerU">empezar a chatear con mind</a></li>
+                            </div>
+                            <div class="btnDescargar">
+                                <a href="https://apps.apple.com/pe/app/apple-store/id375380948" target="_blank">
+                                   <img src="img/descargaapple.png" alt="Apple">
+                                </a>
+                                <a href="https://play.google.com/store/apps?hl=es_PE&pli=1" target="_blank">
+                                   <img src="img/descargargoogle.png" alt="WhatsApp">
+                                </a>
+                            </div>
+                        </p>
+                    </div>
                 </div>
-                <div class="boxB col2">
-                    <h1>chatea con una <br> ia profesional </h1>
-                    <p class="txtBannerU">
-                        <br>
-                        capacitada por psicólogos expertos en técnicas <br>
-                        como TCC y mindfulness
-                        <div>
-                            <a href="#" class="btnBannerU">empezar a chatear con mind</a>
-                        </div>
-                        <div class="btnDescargar">
-                            <img src="img/descargaapple.png" alt="App Store">
-                            <img src="img/descargargoogle.png" alt="Google Play">
-                        </div>
-                    </p>
+            </section>
+
+            <!--Unirse como psicotrainer-->
+            <section class="reclutamiento" id="psicotrainer">
+              <div class="containerR">
+               <div class="boxR">
+                 <img src="img/psicologo.png" class="imagen-psicologo">
+               </div>
+              <div class="boxR contenido-reclutamiento">
+                <h2>estamos reclutando psicotrainers</h2>
+                <p>
+                    ayuda a los pacientes a recibir servicios de calidad<br>
+                    y amplía tu experiencia laboral desde la<br>
+                    comodidad tu hogar
+                </p>
+                <div>
+                    <li><a href="psicotrainer.html" class="btnReclutamiento" target="btnReclutamiento">¡únete como ai trainer, ya!</a></li>
                 </div>
+            </div>
             </div>
         </section>
-        <!--unirse como psicotrainer-->
-        <section class="reclutamiento">
-          <div class="containerR">
-           <div class="boxR">
-             <img src="img/psicologo.png" class="imagen-psicologo">
-           </div>
-          <div class="boxR contenido-reclutamiento">
-            <h2>estamos reclutando psicotrainers</h2>
-            <p>
-                ayuda a los pacientes a recibir servicios de calidad<br>
-                y amplía tu experiencia laboral desde la<br>
-                comodidad tu hogar
-            </p>
-            <div>
-                <a href="#" class="btnReclutamiento">¡únete como ai trainer, ya!</a>
-            </div>
-        </div>
-        </div>
-    </section>
+
+
 <!--acerca de mind-->
 <section class="registro-noticias">
     <div class="containerRN">
         <div class="boxRN contenido-registro">
             <h3>regístrate para recibir las<br>últimas noticias y ofertas<br>exclusivas</h3>
+
+            <!--Formulario de contacto-->
+            <form action="" class="form">
+                <input class="input" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                <input class="input" type="email" name="email" id="email" placeholder="Email" required>
+                <textarea class="input" name="mensaje" id="mensaje" placeholder="Mensaje" required></textarea>
+                <input class="input" type="submit" value="Enviar">
+            </form>
         </div>
-        
+
         <div class="boxRN menu">
             <div class="colM">
                 <h4>Menú</h4>
@@ -249,7 +234,7 @@
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </div>
-            
+
             <div class="colS">
                 <h4>Soporte</h4>
                 <ul>
@@ -259,19 +244,38 @@
                     <li><a href="#">Políticas de privacidad</a></li>
                 </ul>
             </div>
-            
+
             <div class="redes-sociales">
-                <img src="img/whatsapp.png" class="logowhatsapp">
-                <img src="img/twitter.png" class="logotwitter">
-                <img src="img/insta.png" class="logoinsta">
-                <img src="img/facebus.png" class="logoface">
+                <a href="https://web.whatsapp.com/" target="_blank">
+                   <img src="img/whatsapp.png" class="logowhatsapp" alt="WhatsApp">
+                </a>
+
+                 <a href="https://twitter.com/" target="_blank">
+                   <img src="img/twitter.png" class="logotwitter" alt="Twitter">
+                </a>
+
+                <a href="https://instagram.com/" target="_blank">
+                   <img src="img/insta.png" class="logoinsta" alt="Instagram">
+                </a>
+
+                <a href="https://facebook.com/" target="_blank">
+                  <img src="img/facebus.png" class="logoface" alt="Facebook">
+                </a>
             </div>
-         </div>
         </div>
-    </section>
+    </div>
+</section>
     </main>
+        <footer>
+        <div class="footer-container">
+            <small>
+                copyright &copy; 2025 - universidad peruana de ciencias aplicadas - (UPC) <br>
+                mind health
+            </small>
+        </div>
 </body>
 </html>
+
 
 
 
