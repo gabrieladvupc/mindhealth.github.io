@@ -1,0 +1,1060 @@
+/*header*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav{
+    background: #574242;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Anek Devanagari", sans-serif;
+    padding: 13px 20px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    transition: .5s;
+}
+
+.btnHeader{
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px 2px;
+    text-decoration: none;
+    font-family: "Anek Devanagari", sans-serif;
+    transition: .5s;
+}
+
+.btnHeader2{
+    background-color: #FFE389;
+    color: #000000;
+    padding: 10px 2px;
+    text-decoration: none;
+    font-family: "Anek Devanagari", sans-serif;
+    transition: .5s;
+}
+
+.logo{
+    padding: 10px 2px;
+    width: 10%;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+li a:hover{
+    background: #FFE389;
+}
+
+.btnHeader:hover{
+    background: #F5BF10;
+}
+
+.btnHeader2:hover{
+    background: #F5BF10;
+}
+
+/*primera seccion: N°1 inicio*/
+section.banner{
+    background: linear-gradient(to top, #BFFFF9, #26A69A);
+    padding: 3rem 0;
+}
+
+.containerB{
+    width: 120%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.col1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.robot{
+    width: 70%;
+}
+
+.col2{
+    padding: 1rem 2rem; 
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #FEF5C8 ;
+    font-size: 5rem;
+    font-family: "Cal Sans", sans-serif;
+    line-height: 4rem;
+    text-align: justify;
+}
+
+#txtBanner{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+    font-family: "Cal Sans", sans-serif;
+}
+
+.btnBanner{
+    background: #FFE389;
+    color: #26A69A;
+    padding: 20px 20px;
+    border-radius: 13px;
+    text-decoration: none;
+    font-family: "Cal Sans", sans-serif;
+}
+/*seccion 2: servicios de mind health*/
+.Servicios{
+    background: linear-gradient(to bottom, #BFFFF9, #FFFFFF);
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.subservicios{
+    flex: 0 0 auto;
+    text-align: left;
+    color: #26A69A;
+    padding-left: 5%;
+}
+
+.subservicios h2{
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.subservicios p{
+    color: #000000;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+.containerS{
+    flex: 1;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2rem;
+    max-width: 60%;
+}
+
+.boxS{
+    background: #FFE389;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb( 0 0 0/10%);
+    border-radius: 30px;
+}
+
+.boxS img{
+    width: 100px;
+}
+
+.boxS h3{
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.boxS p{
+    text-align: center;
+    color: #574242;
+    font-family: "Cal Sans", sans-serif;
+}
+
+/*seccion 3: funcionamiento*/
+
+.Como{
+    background: #FFFFFF;
+    padding: 3rem 0;
+} 
+
+.subfuncionamiento{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #26A69A;
+}
+
+.subfuncionamiento h2{
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subfuncionamiento p{
+    color: #000000;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+.containerP{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.boxP{
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb( 0 0 0/10%);
+    border-radius: 15px;
+}
+
+.boxP img{
+    width: 100px;
+}
+
+.boxP h3{
+    color: #FFE389;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+    background: #26A69A;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxP p{
+    text-align: center;
+    color: #000000;
+    font-family: "Cal Sans", sans-serif;
+}
+
+/*Seccion 4: Planes*/
+
+.Planes {
+    background: linear-gradient(to bottom, #FFFFFF, #26A69A);
+    padding: 3rem 0;
+    border-radius: 50px 50px 0 0;
+}
+
+.subplanes {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.subplanes h2 {
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.containerPl {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 2rem;
+}
+
+.boxPl {
+    background: #FFFFFF;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 55px 5px rgb( 0 0 0/20%);
+    display: flex;
+    flex-direction: column;
+}
+
+.boxTitle {
+    background: #26A69A;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.boxTitle h3 {
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #FFE389;
+}
+
+.precio {
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.btnPlanes {
+    background: #FFFFFF;
+    color: #26A69A;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btnPlanes:hover {
+    background: #FFE389;
+    color: #26A69A;
+}
+
+.boxContent {
+    padding: 2rem 1.5rem;
+    flex-grow: 1;
+}
+
+.boxContent p {
+    font-family: "Cal Sans", sans-serif;
+    color: #000000;
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/*seccion 5: unirse*/
+
+.banner{
+    background: #26A69A;
+    padding: 3rem 0;
+}
+
+.containerU{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.boxU img{
+    width: 100px;
+}
+
+.boxU h1{
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.txtBannerU{
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.btnBannerU{
+    background: #FFE389;
+    color: #26A69A;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-family: "Cal Sans", sans-serif;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.btnDescargar{
+    display: flex;
+    gap: 2rem;
+}
+
+.btnDescargar{
+    height: 70px;
+}
+/*seccion 6:unirse como psicotrainer*/
+.reclutamiento {
+    background: #26A69A;
+    padding: 4rem 0;
+    color: white;
+}
+
+.containerR {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+    align-items: center;
+}
+
+.boxR {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-psicologo {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 30px;
+}
+
+.contenido-reclutamiento {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contenido-reclutamiento h2 {
+    color: #FFE389;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 3.5rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.contenido-reclutamiento p {
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.btnReclutamiento {
+    background: #FFE389;
+    color: #26A69A;
+    padding: 15px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+ /*seccion 6: acerca de mind*/
+.registro-noticias {
+    background: #2D2D2D;
+    padding: 3rem 0;
+    color: white;
+}
+
+.containerRN {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+    align-items: center;
+}
+
+.boxRN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-registro {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.contenido-registro h3 {
+    color: #FFFFFF;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.menu {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-gap: 2rem;
+    align-items: start;
+}
+
+.colM{
+    display: flex;
+    flex-direction: column;
+}
+.colS {
+    display: flex;
+    flex-direction: column;
+}
+
+.colM h4{
+    color: #FFFFFF;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.colS h4 {
+    color: #FFFFFF;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.colM ul{
+    list-style: none;
+}
+.colS ul {
+    list-style: none;
+}
+
+.colM ul li{
+    margin-bottom: 0.5rem;
+}
+.colS ul li {
+    margin-bottom: 0.5rem;
+}
+
+.colM ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1rem;
+}
+.colS ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.redes-sociales {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: "Cal Sans", sans-serif;
+}
+
+.input[type="submit"] {
+    background-color: #26A69A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.input[type="submit"]:hover {
+    background-color: #26A69A;
+}
+
+/*seccion: registro*/
+
+.login {
+    font-family: "Cal sans", sans-serif;
+    height: 100vh;
+    background-color: #60688F;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.main {
+    width: 90%;
+    max-width: 1000px;
+    background-image: linear-gradient(to left, #60688F);
+    border-radius: 1em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(319px, 1fr));
+    gap: 1em;
+    animation: mostrar 1.5s ease-in-out;
+}
+
+@keyframes mostrar {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.login_figure {
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_img {
+    width: 80%;
+    max-width: 60vw;
+}
+
+.login_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 3em 1em;
+    text-align: center;
+}
+
+.login_title {
+    font-size: 2.3rem;
+    color: white;
+}
+
+.login_paragraph {
+    margin: .3em 0;
+    color: white;
+}
+
+.login_form {
+    display: grid;
+    justify-items: center;
+    gap: 1.5em;
+}
+
+.login_input {
+    width: 100%;
+    max-width: 500px;
+    outline: none;
+    border: none;
+    padding: 1em;
+    font: inherit;
+    border-radius: .6em;
+}
+
+.login_input--send {
+    background-color: #FFE389;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login_input--send:hover {
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.social {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-auto-columns: max-content;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.enlaces {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.iconos {
+    width: 100%
+}
+/*unirse como psicotrainer*/
+.psicotrainer_banner {
+    background: linear-gradient(to top, #26A69A, #063631);
+    padding: 4rem 0;
+}
+
+.psicotrainer_container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.psicotrainer_col1 {
+    display: flex;
+    justify-content: center;
+}
+
+.psicotrainer_img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.psicotrainer_col2 h1 {
+    font-size: 3rem;
+    color: #FFE389;
+    font-family: "Cal Sans", sans-serif;
+}
+
+.psicotrainer_col2 p,
+.psicotrainer_col2 ul {
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+.psicotrainer_col2 ul {
+    margin-top: 1rem;
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.psicotrainer_btn {
+    display: inline-block;
+    background: #FFE389;
+    color: #26A69A;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+/* Beneficios */
+.psicotrainer_benefits {
+    background: #ffffff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.psicotrainer_benefits_content h2 {
+    font-size: 2.5rem;
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    margin-bottom: 2rem;
+}
+
+.psicotrainer_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.psicotrainer_card {
+    background: #FFE389;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+}
+
+.psicotrainer_card h3 {
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+.psicotrainer_card p {
+    color: #000000;
+    font-family: "Cal Sans", sans-serif;
+}
+
+.psicotrainer_icon {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Pasos */
+.psicotrainer_steps {
+    background: #F2FBFA;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.psicotrainer_steps h2 {
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.psicotrainer_steps_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.psicotrainer_step {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.05);
+}
+
+.psicotrainer_step h3 {
+    background: #26A69A;
+    color: #FFE389;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.psicotrainer_cta {
+    background: #26A69A;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.psicotrainer_cta h2 {
+    font-size: 2rem;
+    font-family: "Cal Sans", sans-serif;
+}
+/*plan standart*/
+.pago {
+  display: flex;
+  min-height: 100vh;
+}
+
+.pago_izquierda {
+  background: #fff;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pago_titulo_grande {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  background: #000;
+  color: #fff;
+  padding: 1rem;
+  font-family: "Cal Sans", sans-serif;
+
+}
+
+.pago_texto_centro {
+  text-align: center;
+  margin: 0.5rem 0 1rem;
+  font-size: 0.9rem;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.pago_apple_btn {
+  background: #574242;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: "Cal Sans", sans-serif;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.pago_metodos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.pago_metodos img {
+  height: 40px;
+}
+
+.pago_form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.pago_form p {
+  margin: 0.8rem 0 0.2rem;
+  font-size: 0.95rem;
+}
+
+.pago_input {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.pago_input_doble {
+  display: flex;
+  gap: 1rem;
+}
+
+.pago_btn_enviar {
+  background: #1c1c1c;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-family: "Cal Sans", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.pago_derecha {
+  flex: 1;
+  background: linear-gradient(to bottom, #fff, #f1eaea);
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pago_resumen_titulo {
+  font-size: 2.5rem;
+  font-family: "Cal Sans", sans-serif;
+  margin-bottom: 2rem;
+  color: #2D2D2D;
+  justify-content: center;
+}
+
+.pago_resumen_titulo span {
+  font-size: 8rem;
+  font-family: "Cal Sans", sans-serif;
+  color: #2D2D2D;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.pago_resumen_top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #999;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.pago_resumen_top img {
+  height: 25px;
+}
+
+.pago_resumen_detalle {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #fff;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.pago_resumen_detalle h4 {
+  margin-bottom: 0.6rem;
+  text-transform: lowercase;
+}
+
+.pago_resumen_detalle ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.9rem;
+}
+
+.pago_resumen_detalle li {
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 768px) {
+  .pago {
+    flex-direction: column;
+  }
+
+  .pago_izquierda,
+  .pago_derecha {
+    padding: 2rem;
+  }
+}
+
+footer{
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    padding: 20px;
+    font-family: "Cal Sans", sans-serif;
+    text-align: center;
+}
