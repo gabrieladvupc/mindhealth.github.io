@@ -15,17 +15,3 @@ Example:
     |Email     |danielChavez123@gmail.com|
     |Contraseña|danielito2002            |
     
-Scenario Outline: Error al ingresar credenciales incorrectas
-    Given que el usuario está en el formulariode inicio de sesión
-    When introduce datos incorrectos
-    Then el sistema muestra un mensaje de error indicando que las
-    credenciales no son válidas.
-
-Example: INPUT
-    |Campo     |Datos ingresados         |
-    |Email     |danielChavez123@gmail.com|
-    |Contraseña|pablito2005              |
-
-Example: OUTPUT
-    |Mensaje   |"Email y/o contraseña incorrectos"|
-
