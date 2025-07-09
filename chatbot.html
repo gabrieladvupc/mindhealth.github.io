@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Chatbot | Mind Health</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+  <link rel="stylesheet" href="css/mind.css"/>
+  <script src="js/mind.js"></script>
+</head>
+<body>
+  <div class="chatbot-fullscreen-wrapper">
+    <div class="chatbot-popup">
+
+      <div class="chat-header">
+        <div class="header-info">
+          <img class="bot-avatar" src="img/logomind.png" alt="Chatbot Logo" width="50" height="50">
+          <h2 class="logo-text">Chatbot</h2>
+        </div>
+        <a href="recomendaciones.html" class="close-chatbot" target="close-chatbot" >Finalizar</a>
+
+      </div>
+
+      <div class="chat-body" id="chat-body">
+        <div class="message bot-message">
+          <img class="bot-avatar" src="img/logomind.png" alt="Bot Avatar">
+          <div class="message-text">Hola, ¿cómo estás hoy?</div>
+        </div>
+      </div>
+
+      <div class="chat-footer">
+        <form class="chat-form" id="chat-form">
+          <textarea placeholder="Escribe tu mensaje..." class="message-input" id="message-input" required></textarea>
+          <div class="chat-controls">
+            <button type="button" class="material-symbols-rounded">sentiment_satisfied</button>
+            <button type="button" class="material-symbols-rounded">attach_file</button>
+            <button type="submit" id="send-message" class="material-symbols-rounded">arrow_upward</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

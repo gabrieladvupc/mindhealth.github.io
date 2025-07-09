@@ -3,9 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Iniciar sesión</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/mind.css">
+  <script src="js/mind.js" defer></script>
+  
 </head>
 <body>
+    <header>
+    <nav>
+      <a href="#" class="logo">
+        <img src="img/m&h.png" alt="Mind Health Logo">
+      </a>
+      <ul>
+        <li><a href="index.html#servicios">Servicios</a></li>
+        <li><a href="index.html#funciona">Como funciona</a></li>
+        <li><a href="index.html#planes">Planes</a></li>
+        <li><a href="index.html#unete">Únete</a></li>
+        <li><a href="index.html#psicotrainer">Psicotrainer</a></li>
+        <li><a href="login.html" target="btnHeader">Iniciar sesión</a></li>
+        <li><a href="registro.html" target="btnHeader2">Registrarse</a></li>
+      </ul>
+    </nav>
+  </header>
   <section class="login">
     <figure class="login_figure">
       <img src="img/riniciar.png" alt="Imagen de inicio" class="login_img">
@@ -18,7 +36,7 @@
       <form action="" class="login_form">
         <input class="login_input" type="email" placeholder="Correo electrónico" required>
         <input class="login_input" type="password" placeholder="Contraseña" required>
-        <input class="login_input login_input--send" type="submit" value="Iniciar sesión">
+        <a href="mind.html#planes" class="login_input login_input--send">Iniciar sesión</a>
 
         <div class="social">
           <a href="#" class="enlaces">
@@ -30,4 +48,3 @@
   </section>
 </body>
 </html>
-
