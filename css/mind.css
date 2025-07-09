@@ -1,0 +1,1341 @@
+/*header*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cal Sans", sans-serif;
+  background-color: #60688F;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  background: #574242;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+nav .logo img {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li {
+  line-height: 80px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Anek Devanagari", sans-serif;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+
+li a:hover {
+  background: #FFE389;
+}
+
+.btnHeader {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.btnHeader2 {
+  background-color: #FFE389;
+  color: #000000;
+}
+
+.btnHeader:hover,
+.btnHeader2:hover {
+  background: #F5BF10;
+}
+/*primera seccion: N°1 inicio*/
+section.banner{
+    background: linear-gradient(to top, #BFFFF9, #26A69A);
+    padding: 3rem 0;
+}
+
+.containerB{
+    width: 120%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.col1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.robot{
+    width: 70%;
+}
+
+.col2{
+    padding: 1rem 2rem; 
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #FEF5C8 ;
+    font-size: 5rem;
+    font-family: "Cal Sans", sans-serif;
+    line-height: 4rem;
+    text-align: justify;
+}
+
+#txtBanner{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+    font-family: "Cal Sans", sans-serif;
+}
+
+.btnBanner{
+    background: #FFE389;
+    color: #26A69A;
+    padding: 20px 20px;
+    border-radius: 13px;
+    text-decoration: none;
+    font-family: "Cal Sans", sans-serif;
+}
+/*seccion 2: servicios de mind health*/
+.Servicios{
+    background: linear-gradient(to bottom, #BFFFF9, #FFFFFF);
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.subservicios{
+    flex: 0 0 auto;
+    text-align: left;
+    color: #26A69A;
+    padding-left: 5%;
+}
+
+.subservicios h2{
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.subservicios p{
+    color: #000000;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+.containerS{
+    flex: 1;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2rem;
+    max-width: 60%;
+}
+
+.boxS{
+    background: #FFE389;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb( 0 0 0/10%);
+    border-radius: 30px;
+}
+
+.boxS img{
+    width: 100px;
+}
+
+.boxS h3{
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.boxS p{
+    text-align: center;
+    color: #574242;
+    font-family: "Cal Sans", sans-serif;
+}
+
+/*seccion 3: funcionamiento*/
+
+.Como{
+    background: #FFFFFF;
+    padding: 3rem 0;
+} 
+
+.subfuncionamiento{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #26A69A;
+}
+
+.subfuncionamiento h2{
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subfuncionamiento p{
+    color: #000000;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+.containerP{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.boxP{
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb( 0 0 0/10%);
+    border-radius: 15px;
+}
+
+.boxP img{
+    width: 100px;
+}
+
+.boxP h3{
+    color: #FFE389;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+    background: #26A69A;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxP p{
+    text-align: center;
+    color: #000000;
+    font-family: "Cal Sans", sans-serif;
+}
+
+/*Seccion 4: Planes*/
+
+.Planes {
+    background: linear-gradient(to bottom, #FFFFFF, #26A69A);
+    padding: 3rem 0;
+    border-radius: 50px 50px 0 0;
+}
+
+.subplanes {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.subplanes h2 {
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.containerPl {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 2rem;
+}
+
+.boxPl {
+    background: #FFFFFF;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 55px 5px rgb( 0 0 0/20%);
+    display: flex;
+    flex-direction: column;
+}
+
+.boxTitle {
+    background: #26A69A;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.boxTitle h3 {
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #FFE389;
+}
+
+.precio {
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.btnPlanes {
+    background: #FFFFFF;
+    color: #26A69A;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btnPlanes:hover {
+    background: #FFE389;
+    color: #26A69A;
+}
+
+.boxContent {
+    padding: 2rem 1.5rem;
+    flex-grow: 1;
+}
+
+.boxContent p {
+    font-family: "Cal Sans", sans-serif;
+    color: #000000;
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/*seccion 5: unirse*/
+
+.banner{
+    background: #26A69A;
+    padding: 3rem 0;
+}
+
+.containerU{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.boxU img{
+    width: 100px;
+}
+
+.boxU h1{
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.txtBannerU{
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.btnBannerU{
+    background: #FFE389;
+    color: #26A69A;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-family: "Cal Sans", sans-serif;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.btnDescargar{
+    display: flex;
+    gap: 2rem;
+}
+
+.btnDescargar{
+    height: 70px;
+}
+/*seccion 6:unirse como psicotrainer*/
+.reclutamiento {
+    background: #26A69A;
+    padding: 4rem 0;
+    color: white;
+}
+
+.containerR {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+    align-items: center;
+}
+
+.boxR {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-psicologo {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 30px;
+}
+
+.contenido-reclutamiento {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contenido-reclutamiento h2 {
+    color: #FFE389;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 3.5rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.contenido-reclutamiento p {
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.btnReclutamiento {
+    background: #FFE389;
+    color: #26A69A;
+    padding: 15px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+ /*seccion 6: acerca de mind*/
+.registro-noticias {
+    background: #2D2D2D;
+    padding: 3rem 0;
+    color: white;
+}
+
+.containerRN {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+    align-items: center;
+}
+
+.boxRN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-registro {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.contenido-registro h3 {
+    color: #FFFFFF;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.menu {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-gap: 2rem;
+    align-items: start;
+}
+
+.colM{
+    display: flex;
+    flex-direction: column;
+}
+.colS {
+    display: flex;
+    flex-direction: column;
+}
+
+.colM h4{
+    color: #FFFFFF;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.colS h4 {
+    color: #FFFFFF;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.colM ul{
+    list-style: none;
+}
+.colS ul {
+    list-style: none;
+}
+
+.colM ul li{
+    margin-bottom: 0.5rem;
+}
+.colS ul li {
+    margin-bottom: 0.5rem;
+}
+
+.colM ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1rem;
+}
+.colS ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.redes-sociales {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: "Cal Sans", sans-serif;
+}
+
+.input[type="submit"] {
+    background-color: #26A69A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.input[type="submit"]:hover {
+    background-color: #26A69A;
+}
+
+/* sección: registro */
+.login {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #60688F;
+  gap: 2rem;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.login_figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.login_contact {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.login_title {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.login_paragraph {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.login_input {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.login_input select {
+  appearance: none;
+}
+
+.login_input--send {
+  background-color: #FFE389;
+  color: #000000;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.login_input--send:hover {
+  background-color: white;
+  transition: background-color 0.3s;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.enlaces img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .login {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .login_img {
+    max-width: 250px;
+  }
+
+  .login_contact {
+    padding: 1rem;
+  }
+
+  .login_title {
+    font-size: 2rem;
+  }
+
+  .login_paragraph {
+    font-size: 1rem;
+  }
+}
+
+/*unirse como psicotrainer*/
+.psicotrainer_banner {
+    background: linear-gradient(to top, #26A69A, #063631);
+    padding: 4rem 0;
+}
+
+.psicotrainer_container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.psicotrainer_col1 {
+    display: flex;
+    justify-content: center;
+}
+
+.psicotrainer_img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.psicotrainer_col2 h1 {
+    font-size: 3rem;
+    color: #FFE389;
+    font-family: "Cal Sans", sans-serif;
+}
+
+.psicotrainer_col2 p,
+.psicotrainer_col2 ul {
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+.psicotrainer_col2 ul {
+    margin-top: 1rem;
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.psicotrainer_btn {
+    display: inline-block;
+    background: #FFE389;
+    color: #26A69A;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+/* Beneficios */
+.psicotrainer_benefits {
+    background: #ffffff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.psicotrainer_benefits_content h2 {
+    font-size: 2.5rem;
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    margin-bottom: 2rem;
+}
+
+.psicotrainer_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.psicotrainer_card {
+    background: #FFE389;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+}
+
+.psicotrainer_card h3 {
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+.psicotrainer_card p {
+    color: #000000;
+    font-family: "Cal Sans", sans-serif;
+}
+
+.psicotrainer_icon {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Pasos */
+.psicotrainer_steps {
+    background: #F2FBFA;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.psicotrainer_steps h2 {
+    color: #26A69A;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.psicotrainer_steps_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.psicotrainer_step {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.05);
+}
+
+.psicotrainer_step h3 {
+    background: #26A69A;
+    color: #FFE389;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.psicotrainer_cta {
+    background: #26A69A;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.psicotrainer_cta h2 {
+    font-size: 2rem;
+    font-family: "Cal Sans", sans-serif;
+}
+/*plan standart*/
+.pago {
+  display: flex;
+  min-height: 100vh;
+}
+
+.pago_izquierda {
+  background: #fff;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pago_titulo_grande {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  background: #000;
+  color: #fff;
+  padding: 1rem;
+  font-family: "Cal Sans", sans-serif;
+
+}
+
+.pago_texto_centro {
+  text-align: center;
+  margin: 0.5rem 0 1rem;
+  font-size: 0.9rem;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.pago_apple_btn {
+  background: #574242;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: "Cal Sans", sans-serif;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.pago_metodos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.pago_metodos img {
+  height: 40px;
+}
+
+.pago_form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.pago_form p {
+  margin: 0.8rem 0 0.2rem;
+  font-size: 0.95rem;
+}
+
+.pago_input {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.pago_input_doble {
+  display: flex;
+  gap: 1rem;
+}
+
+.pago_btn_enviar {
+  background: #1c1c1c;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-family: "Cal Sans", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.pago_derecha {
+  flex: 1;
+  background: linear-gradient(to bottom, #fff, #f1eaea);
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pago_resumen_titulo {
+  font-size: 2.5rem;
+  font-family: "Cal Sans", sans-serif;
+  margin-bottom: 2rem;
+  color: #2D2D2D;
+  justify-content: center;
+}
+
+.pago_resumen_titulo span {
+  font-size: 8rem;
+  font-family: "Cal Sans", sans-serif;
+  color: #2D2D2D;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.pago_resumen_top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #999;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.pago_resumen_top img {
+  height: 25px;
+}
+
+.pago_resumen_detalle {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #fff;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.pago_resumen_detalle h4 {
+  margin-bottom: 0.6rem;
+  text-transform: lowercase;
+}
+
+.pago_resumen_detalle ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.9rem;
+}
+
+.pago_resumen_detalle li {
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 768px) {
+  .pago {
+    flex-direction: column;
+  }
+
+  .pago_izquierda,
+  .pago_derecha {
+    padding: 2rem;
+  }
+}
+
+.chatbot-fullscreen-wrapper {
+  background-color: #fff;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.chatbot-popup {
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  background: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+/* Header */
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: #26A69A;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-info .logo-text {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.bot-avatar {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Botón cerrar */
+#close-chatbot {
+  border: none;
+  color: #fff;
+  background: #3d39ac;
+  height: 40px;
+  width: 40px;
+  font-size: 1.9rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#close-chatbot:hover {
+  background: #2b288a;
+}
+
+/* Cuerpo del chat */
+.chat-body {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #f9f9f9;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.bot-message {
+  flex-direction: row;
+}
+
+.user-message {
+  flex-direction: row-reverse;
+  align-self: flex-end;
+}
+
+.message-text {
+  padding: 10px 14px;
+  max-width: 70%;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  border-radius: 12px;
+}
+
+.bot-message .message-text {
+  background-color: #e0e0e0;
+  color: #000;
+  border-radius: 13px 13px 13px 3px;
+}
+
+.user-message .message-text {
+  background-color: #5358C4;
+  color: #fff;
+  border-radius: 13px 13px 3px 13px;
+}
+
+/* Pie del chat */
+.chat-footer {
+  background: #fff;
+  padding: 15px 20px;
+  border-top: 1px solid #ccc;
+}
+
+.chat-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.message-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+  height: 40px;
+  transition: border 0.3s ease;
+}
+
+.message-input:focus {
+  border-color: #5350C4;
+  outline: none;
+}
+
+/* Botones */
+.chat-controls button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #5358C4;
+  border-radius: 50%;
+  transition: background 0.2s ease;
+}
+
+/* Botón de enviar corregido */
+#send-message {
+  color: #fff;
+  background: #5350C4;
+  opacity: 1;
+  pointer-events: auto;
+  transition: background 0.3s ease;
+}
+
+/* Hover */
+.chat-form .chat-controls button:hover {
+  background: #f1f1ff;
+}
+
+#send-message:hover {
+  background: #3d39ac;
+}
+
+.reco-banner {
+  background-color: #FFE389;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.reco-container-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+}
+
+.reco-texto {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.reco-texto h1 {
+  font-size: 2.5rem;
+  color: #574242;
+}
+
+.reco-texto p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.reco-imagen img {
+  width: 160px;
+}
+
+/* Sección de videos */
+.reco-videos {
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.reco-videos h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.reco-videos p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.reco-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+}
+
+.reco-video-box {
+  width: 300px;
+  text-align: center;
+}
+
+.reco-video-box h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* Sección de artículos */
+.reco-articulos {
+  background-color: #e8f5e9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.reco-articulos h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.reco-articulos p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.reco-art-box {
+  width: 300px;
+  background: #ffffff;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reco-art-box a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #26A69A;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.reco-art-box a:hover {
+  text-decoration: underline;
+}
+
+footer{
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    padding: 20px;
+    font-family: "Cal Sans", sans-serif;
+    text-align: center;
+}
+
+
