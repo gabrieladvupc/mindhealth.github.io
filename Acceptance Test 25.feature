@@ -14,10 +14,4 @@ Example: INPUT
     |El usuario ingresa a "Planes de suscripción"|
 
 Example: OUTPUT
-    |Lista de planes|"Standard"/"Vip"|
-
-Scenario Outline: Selección de plan oculto "anónimo"
-    Given que el usuario no desee suscribirse
-    When seleccione el botón "Skip"
-    Then la plataforma redirigirá al usuario al chat
-
+    |Lista de planes|"Standard"/"Vip"/"Premium"/"Platinum"|
